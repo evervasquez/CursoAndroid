@@ -139,3 +139,6 @@ org.eclipse.core.internal.resources.ResourceException: A resource already exists
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
 !SUBENTRY 1 org.eclipse.core.resources 4 272 2014-04-26 15:30:47.441
 !MESSAGE A resource already exists on disk 'C:\Users\eveR\workspace\cursoAndroid0\Clase2\.settings'.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-04-26 16:46:25.402
+!MESSAGE Failed to load properties file for project 'Clase3'

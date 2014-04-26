@@ -1,0 +1,18 @@
+package com.android.clase3;
+
+public class Lista {
+	private ItemList item;
+
+	public Lista() {
+		item = new ItemList();
+		item.setImagen(0);
+		item.setTitulo("Titulo 1");
+		item.setSubtitulo("Sub Titulo 1");
+	}
+
+	@Override
+	public String toString() {
+		return item.getImagen()+" - "+item.getTitulo()+" - "+item.getSubtitulo();
+	}
+
+}
