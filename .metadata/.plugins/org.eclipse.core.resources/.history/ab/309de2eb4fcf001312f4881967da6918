@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Precalculadora</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_num1">Numero 1</string>
+    <string name="txt_num2">Numero 2</string>
+    <string name="btn_suma">Sumar</string>
+    <string name="btn_resta">Numero 2</string>
+    <string name="btn_multiplicacion">Numero 2</string>
+    <string name="btn_dividir">Numero 2</string>
+
+</resources>
