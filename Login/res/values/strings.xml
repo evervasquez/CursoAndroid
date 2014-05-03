@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_usuario">Ingrese Usuario</string>
+    <string name="btn_login">Login</string>
+
+</resources>

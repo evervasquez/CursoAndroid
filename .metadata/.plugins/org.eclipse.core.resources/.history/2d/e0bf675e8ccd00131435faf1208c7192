@@ -1,7 +1,0 @@
-package com.android.clase3;
-
-public class ItemList {
-	private int imagen;
-	private String titulo;
-	private String subtitulo;
-}

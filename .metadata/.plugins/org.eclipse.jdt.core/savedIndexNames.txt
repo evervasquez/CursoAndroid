@@ -1,11 +1,1 @@
-INDEX VERSION 1.126+C:\Users\eveR\workspace\cursoAndroid0\.metadata\.plugins\org.eclipse.jdt.core
-1284074322.index
-1800713590.index
-4153070919.index
-2997616503.index
-3069111387.index
-2842113598.index
-3730835112.index
-3572799234.index
-3871394155.index
-1330223020.index
+INDEX VERSION 1.126+/home/ever/workspace/android0/CursoAndroid/.metadata/.plugins/org.eclipse.jdt.core

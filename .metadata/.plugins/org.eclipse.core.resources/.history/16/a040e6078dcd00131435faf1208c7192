@@ -1,9 +1,0 @@
-package com.android.clase3;
-
-public class Lista {
-	private ItemList item;
-	
-	public Lista() {
-	item = new ItemList();	
-	}
-}
