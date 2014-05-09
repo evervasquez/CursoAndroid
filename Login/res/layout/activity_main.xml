@@ -45,8 +45,10 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="10dp"
+            android:onClick="validarAcceso"
             android:background="@android:color/holo_blue_bright"
             android:text="@string/btn_login" />
+        
     </LinearLayout>
 
 </LinearLayout>

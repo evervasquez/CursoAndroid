@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.android.login.PrincipalActivity"
+            android:label="@string/title_activity_principal" >
+        </activity>
+        <activity
+            android:name="com.android.login.MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
     </application>
 
 </manifest>
