@@ -26,7 +26,7 @@ public class GridAdapter extends BaseAdapter {
 	@Override
 	public int getCount() {
 		// TODO Auto-generated method stub
-		return 0;
+		return arrayitems.size();
 	}
 
 	@Override
