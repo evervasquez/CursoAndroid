@@ -1,27 +1,36 @@
 package com.android.login;
 
+import java.util.ArrayList;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
-import android.widget.ArrayAdapter;
 import android.widget.GridView;
+
+import com.android.login.adapters.GridAdapter;
+import com.android.login.model.Item;
 
 public class MenuActivity extends Activity {
 	private GridView grid;
+	private ArrayList<Item> items;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_menu);
 
 		grid = (GridView) findViewById(R.id.gridmenu);
-		
-		String[] items = new String[] { "Menu", "Usuario", "Compartir", "Salir" };
+		items = new ArrayList<Item>();
 
-		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-				android.R.layout.simple_list_item_1, items);
-		
+		items.add(new Item(R.drawable.profile, "Perfil"));
+		items.add(new Item(R.drawable.facebook, "Facebook"));
+		items.add(new Item(R.drawable.skype, "Skype"));
+		items.add(new Item(R.drawable.qr, "CodigoQR"));
+		items.add(new Item(R.drawable.profile, "Contacto"));
+
+		GridAdapter adapter = new GridAdapter(this, items);
 		grid.setAdapter(adapter);
-		
+
 	}
 
 	@Override
